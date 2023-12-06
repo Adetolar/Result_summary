@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 18px;
+}
+
+.Summary a:hover {
+  background-color: hsl(234, 85%, 45%);
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    /* background-color: ; */
+    font-family: Hanken Grotesk;
+  }
+
+  .Result {
+    /* width: 100%; */
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px 0px 30px;
+  }
+
+  .Result h2 {
+    font-size: small;
+    opacity: 60%;
+  }
+
+  .Result div {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    margin: 0px auto;
+    padding-top: 5px;
+  }
+
+  .Result div p:first-of-type {
+    font-size: xx-large;
+    font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+
+  .Result p:nth-child(2) {
+    font-size: x-small;
+    margin-top: 0px;
+    opacity: 40%;
+  }
+
+  .Result strong {
+    margin-top: 20px;
+  }
+
+  .Result p:nth-child(4) {
+    font-size: small;
+    width: 60%;
+    margin: 0px auto;
+    opacity: 60%;
+  }
+
+  .Summary .test {
+    margin: 10px auto;
+  }
+
+  .Summary h3 {
+    margin-left: 5%;
+  }
+
+  .test {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+  }
+
+  .test p:nth-child(2) {
+    margin-right: 10px;
+  }
+
+  .Reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 30%, 96%);
+  }
+
+  .Memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(30, 75%, 95%);
+  }
+  .Verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(180, 42%, 94%);
+  }
+
+  .Visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(240, 53%, 94%);
+  }
+
+  .test p:nth-child(3) {
+    margin-left: 110px;
+    color: rgb(62, 57, 57);
+    font-weight: 800;
+  }
+
+  .test p:nth-child(3) span {
+    color: black;
+    opacity: 50%;
+    font-weight: 800;
+  }
+
+  .Summary a {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    height: 50px;
+    padding: 15px;
+    width: 90%;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+  }
+}
